@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instacart</title>
+    <!--Css Programs-->
+    <link rel="font-family" href="Helvetica-Font.zip">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAJ3/ADKwFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAABEAAAAAAAAAEQAAAAAAAAEREAAAAAAAAREQAAAAAAABERAAAAAAABEREQAAAAAAERERAAAAAAEREREQAAAAARERERAAAAAREREREQAAAAEREREQAAAAAAIiIAAAAAAAIiIiAAAAAAICIiAgAAAAIAIAIAIAD+fwAA/n8AAP5/AAD8PwAA/D8AAPw/AAD4HwAA+B8AAPAPAADwDwAA4AcAAPAPAAD8PwAA+B8AAPQvAADttwAA" rel="icon" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="insta.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!--nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light insta-nav">
+    <a class="navbar-brand" href><img src="https://d2guulkeunn7d8.cloudfront.net/assets/beetstrap/brand/instacart-logo-color-4db9d81ca0b7638befdc4bd331f64a2633df790c0b55ef627c99b1ba77af72b7.svg"></a>
+
+    <button  style="position:absolute; left:2px;"class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+    <ul class="navbar-nav ">
+        <li class="nav-item">
+            <a class="nav-link" href="#"> Department</a>
+        </li>
+         
+        <li class="nav-item">
+           <a class="nav-link" href="#">More ways to shop</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">help</a> 
+        </li>
+     </ul>
+     </div>
+    </nav>
+     <div class="signup" style="position:absolute; right:12px;top:20px;border-radius:10px;">
+    
+        <a ><button type="button" class="btn  nav-but " style="font-size: 1.1rem;font-weight:1800px;"> Log In </button></a>
+        <a ><button type="button" class="btn  nav-but back  " style="font-size: 1.1rem;color: #fff;border-radius:20px;"> Sing Up </button></a>
+    
+     </div>
+  
+<!--oreder grocery page-->
+<div class="address">
+    <div class="text">
+    <h1 >Order groceries for delivery or pickup today</h1>
+    <p >
+        Whatever you want from local stores, brought right to your door.
+    </p>
+    <form>
+        <div class="input-group mb-2 mr-sm-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text" style="padding:18px 12px;"><i class="fas fa-map-marker-alt icon-4x"></i></div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Enter Your Address">
+        </div>
+        </form>
+    </div>
+</div>
+
+<!--textstructure-->
+
+<div class="textstructure">
+   <h2>Grocery delivery you can count on</h2>
+   <div class="container-fluid">
+    <section class="scrol">
+    <div class="row ">
+       
+       <div class="col col-lg-4 ">
+           <div class="colr">
+           <h2>Choose what you want</h2>
+           <p >Select items from your favorite grocery stores at Instacart.com or in the app.</p>
+        </div>
+           <img src="https://d2guulkeunn7d8.cloudfront.net/assets/homepage/how_it_works-163dcc1c8f91c63d7b0bdb648b5370a89267d54c8cb90bd858495395b8a9e5f3.jpg" alt="a lady">
+       </div>
+       <div class="col col-lg-4 ">
+        <div class="colr">
+        <h2>See real-time updates</h2>
+        <p style="width:inherit;">Personal shoppers pick items with care. Chat as they shop and manage your order.</p>
+        </div>
+        <img src="https://d2guulkeunn7d8.cloudfront.net/assets/homepage/real_time_updates-8330ec94f4d8006c6732bb2f65141e3596dcd3be02b0bf0376dcf5e2895fe37e.jpg" alt="mobile">
+    </div>
+    <div class="col col-lg-4 ">
+        <div class="colr">
+        <h2 >Get your items same-day</h2>
+        <p style="width:inherit;">Pick a convenient time for you. Enjoy Instacart’s 100% quality guarantee on  order.</p>
+        </div>
+        <img src="https://d2guulkeunn7d8.cloudfront.net/assets/homepage/same_day_delivery-a00a9a59cbdfc41e7449cbdd04c12d27303284bef1a8fe957ec2a0112a70d7e7.jpg" alt="vegetables">   
+    </div>
+    
+   </div>
+</section>
+   <button type="button" class="btn  btn-lg ">Start Shopping</button>
+
+   <h2 class="marketing-head">The world's largest online grocery service</h2>
+   <img class = "marketing" style=" margin-left:2%;margin-right:4%; border-right-width:5%;" src="https://d2guulkeunn7d8.cloudfront.net/assets/homepage/homepage_stats_mobile-24bd627084eed46859cb6cf670de84feb1de9ef24909f36cb85db410e57313e8.jpg" alt="marketing">
+  <div class="row">
+      <div class="col col-lg-2.7 colr bor">
+        
+          <h2>500 million products</h2>
+          <p>available to shop across the catalog</p>
+      </div>
+      <div class="col col-lg-2.7 colr bor">
+        
+        <h2>40,000 stores</h2>
+        <p>from local grocers to chain stores</p>
+    </div>
+    <div class="col col-lg-2.7 colr bor">
+
+        <h2>5,500+ cities</h2>
+        <p>served across the U.S. & Canada</p>
+    </div>
+    <div class="col col-lg-2.7 colr bor">
+        <h2>Millions of orders</h2>
+        <p>delivered or picked up yearly</p>
+    </div>
+    <h2>Common questions</h2>
+    <div style="font-weight: Helvetica-light-;">
+    <div class="border-bottom quest">How does Instacart delivery and curbside pickup work?</div>
+<div class="border-bottom quest">How much does Instacart cost?</div>
+<div class="border-bottom quest">Will I pay the same price on Instacart as I would in the store</div>
+<div class="border-bottom quest">What happens if somethibg is out of stock and I need to give specific instructions?</div>
+<div class="border-bottom quest">What happens if there's an issue with my order?</div>
+<div class="border-bottom quest">Can I get contactless delivery with Instacart?</div>
+  </div>
+  </div>
+</div>
+</div>
+<!--Information-->
+<div id="Information">
+    <hr>
+    <!--first table description-->
+    <div class="row store border-bottom" id="#first-table" >
+        <div class="col col-lg-3 head">
+        <snap style="display: inline-flex;font-size:1rem;"><img src="https://d2guulkeunn7d8.cloudfront.net/assets/footer/carrot-footer-v3-be31bf38601e4aab043b0f0071b50a024a7e53853a38371ade2822d5aa46875b.svg"><h5> Get deliveries with Instacart</h5></snap>
+        <br>
+        <button class="btn btn-md  apple" type="button"><i class="fab fa-apple"></i>ios</button>
+        <button class="btn btn-md apple" type="button"><i class="fab fa-google-play"></i>Android</button>  
+        </div>
+        
+        <div class="col col-lg-1.8" id="#drop">
+            
+            <ul class="nobull" style="padding-left:1 rem;">
+        <li style="font-weight:bold;">Department</li>
+        <li class="inf-item">Fresh Produce</li>
+        <li class="inf-item">Dairy Products</li>
+        <li class="inf-item">Meat</li>
+        <li class="inf-item">Meat Alternatives</li>
+        <li class="inf-item">Pantry Food</li>
+        <li class="inf-item">Pantry Food</li>
+        <li class="inf-item">Baked Goods</li>
+        <li class="inf-item">View all departments</li>
+            </ul>
+        </div>
+        <div class="col col-lg-1.8"  id="#drop">    
+        <ul class="nobull">
+        <li class="dropdown"  style="font-weight:bold;">More department</li>
+        <li class="inf-item">Fresh Produce</li>       
+        <li class="inf-item">Alcohol</li>
+        <li class="inf-item">Alcohol by Location</li>
+        <li class="inf-item">Frozen Food</li>
+        <li class="inf-item">beverages</li>
+        <li class="inf-item">organic Grocery</li>
+        <li class="inf-item">Household Essentials</li>
+        <li class="inf-item">Office Supplies</li>
+        <li class="inf-item">Beauty Products</li>
+        </ul>
+        </div>
+        <div class="col col-lg-2"  id="#drop">
+        <ul class="nobull">
+        <li style="font-weight:bold; width:max-content;">Instacart Programs</li>
+        <li class="inf-item">Fresh Produce</li>        
+        <li class="inf-item">Gift Cards</li>
+        <li class="inf-item">EBT SNAP</li>
+        <li class="inf-item">Instacart Express</li>
+        <li class="inf-item">Instacart Ads</li>
+        <li class="inf-item">Partner Program</li>
+        <li class="inf-item">Instacart Connect</li>
+        <li class="inf-item">New Retailers</li>
+        <li class="inf-item">Walmart</li>
+        <li class="inf-item">7-Eleven</li>
+            </ul>
+        </div>
+        <div class="col col-lg-1.8"  id="#drop">
+               
+                <ul class="nobull">
+         <li style="font-weight:bold;">Get to Know us</li>
+        <li class="inf-item">Fresh Produce</li>       
+        <li class="inf-item">Contact</li>
+        <li class="inf-item">Press</li>
+        <li class="inf-item">Press</li>
+        <li class="inf-item">Blog</li>
+        <li class="inf-item">Help</li>
+        <li  class="inf-item" >Carrrers</li>
+        <li class="inf-item">Privacy</li>
+        <li class="inf-item">Shop by Location</li>
+            </ul>
+        </div>
+       
+    </div>
+    </div>
+    <!--Second Table description-->
+    <div class="row store border-bottom">
+        <div class="col col-lg-3 head">
+        
+        <snap style="display: inline-flex;justify-content: space-between;"><img src="https://d2guulkeunn7d8.cloudfront.net/assets/footer/shopper-footer-v3-7e5a506c6d7f915192f8db4a5aa1b9a035f2612eb609988031e35d1573e66c0e.svg"><h5> Became a Shopper</h5></snap>
+        <br>
+        <button class="btn btn-md  apple" type="button"><i class="fab fa-apple"></i>ios</button>
+        <button class="btn btn-md apple" type="button"><i class="fab fa-google-play"></i>Android</button> 
+        </div>
+        
+        <div class="col col-lg-1.8" id="#drop">
+            
+            <ul class="nobull" style="padding-left:1 rem;">
+        <li style="font-weight:bold;width:max-content;">Make money with us</li>
+        <li class="inf-item">shopper Oppurtunities</li>
+        <li class="inf-item">Became a Shopper</li>
+        <li class="inf-item" >In- Store Employee for Instant</li>
+        <li class="inf-item">Earning</li>
+            </ul>
+        </div>
+        <div class="col col-lg-1.8"  id="#drop">
+               
+                <ul class="nobull">
+        <li style="font-weight:bold;">Top Cities</li>
+        <li class="inf-item">Los Angeles</li>       
+        <li class="inf-item">New York City</li>
+        <li class="inf-item">Chicago</li>
+        <li class="inf-item">Washington D.C</li>
+        <li class="inf-item">San Fransico</li>
+            </ul>
+        </div>
+        <div class="col col-lg-1.8"  id="#drop">
+               
+            <ul class="nobull">
+     <li style="font-weight:bold;">More Cities</li>
+    <li class="inf-item">Nort Shore</li>       
+    <li class="inf-item">Miami</li>
+    <li class="inf-item">Las Vegas</li>
+    <li class="inf-item">Atlanta</li>
+    <li class="inf-item">Dallas</li>
+    <li class="inf-item" style="width:max-content;">View all Job location</li>
+
+        </ul>
+    </div>
+        <div class="col col-lg-1.8"  id="#drop">
+                <ul class="nobull">
+        <li style="font-weight:bold; width:max-content;">Shopper help</li>
+        <li class="inf-item">Help</li>        
+        <li class="inf-item">Contact</li>
+        <li class="inf-item">Safety</li>
+       
+            </ul>
+            
+        </div>
+      
+    </div>
+
+</div>  
+<!--footer-->
+<div id="footer">
+    <div class="row">
+        <div class="col col-lg-4 main"style="font-weight:bold">
+            Legal
+        </div>
+        <div class="col col-lg-5">
+            <snap style="padding:9%;font-weight:bold;">Terms of Use</snap> 
+            <snap style="padding:9%;font-weight:bold;">Privacy Policy</snap>
+        </div>
+        <div class="col col-lg-3">
+           <snap><i class="fab fa-facebook-f"></i></snap> 
+           <snap> <i class="fab fa-twitter"></i></snap>
+           <snap><i class="fab fa-instagram"></i></snap> 
+           <snap><i class="fab fa-pinterest"></i></snap> 
+
+        </div>
+    </div>
+    <p class="last-line">Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p>
+</div>
+
+
+</body>
+</html>
